@@ -1,5 +1,5 @@
 # Employee Feedback Platform
-
+ codex/design-employee-feedback-website-5sqyba
 This repository contains a full-stack employee feedback platform that combines a React front-end, .NET Web API back-end, MySQL persistence, and Microsoft Entra ID (Azure AD) single sign-on.
 
 ## Project structure
@@ -62,3 +62,11 @@ Open `http://localhost:5173` in your browser to access the portal.
 3. Review submitted items in the table. Admin users with the `Feedback.Admin` role can update status via the API.
 
 Refer to the documentation in [`docs/`](docs/) for deeper architectural details, deployment guidance, and operational playbooks.
+This repository describes the architecture and implementation plan for an employee feedback platform built with React, .NET, MySQL, and Microsoft single sign-on (SSO).
+
+## Overview
+
+The platform enables employees to submit feedback, managers to review and respond, and administrators to analyze engagement trends. It combines a React front-end, a .NET 8 Web API back-end, and a MySQL database, all secured with Microsoft Entra ID (Azure AD) single sign-on.
+
+See the documents in [`docs/`](docs/) for details on architecture, implementation, and deployment.
+ main
